@@ -149,6 +149,12 @@ When you want to stop debugging, you don't need to stop OpenOCD server. Just sto
   
 However, Debugging itself is not easy so that we may discuss in a following session.  
   
+## Etc.
+  
+If Eclipse's syntax check is too annoying for you, go to:  
+** Project Property >> C/C++ General >> Code Analasys **  
+And disable the options.  
+  
 ## References
 
 To know more about programming with ChibiOS, visiting its official web-site and forum is recommended.  
