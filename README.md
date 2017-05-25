@@ -125,6 +125,7 @@ I believe that you can find the icon from the toolbar.
 - Type **"-c "telnet_port 4444" -s "scripts" -f "interface/stlink-v2-1.cfg" -f "board/stm32f4discovery.cfg" "** for Argument.
 - Click **"Apply"**.
 - This is it for OpenOCD server!
+- If you have a permission error, try **"sudo usermod -aG plugdev $USER"** to give the permission. 
   
 ### Debug Configuration
   
