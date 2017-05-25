@@ -152,7 +152,7 @@ However, Debugging itself is not easy so that we may discuss in a following sess
 ## Etc.
   
 If Eclipse's syntax check is too annoying for you, go to:  
-** Project Property >> C/C++ General >> Code Analasys **  
+**Project Property >> C/C++ General >> Code Analasys**  
 And disable the options.  
   
 ## References
