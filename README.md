@@ -154,6 +154,10 @@ However, Debugging itself is not easy so that we may discuss in a following sess
 If Eclipse's syntax check is too annoying for you, go to:  
 **Project Property >> C/C++ General >> Code Analasys**  
 And disable the options.  
+
+If you want to develop OS-less system (bare metal), visit:
+**[GNU ARM ECLIPSE PROJECT](http://gnuarmeclipse.github.io/)**
+And install their plugin to get make file based template projects.
   
 ## References
 
