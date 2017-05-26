@@ -158,6 +158,7 @@ And disable the options.
 If you want to develop OS-less system (bare metal), visit:  
 **[GNU ARM ECLIPSE PROJECT](http://gnuarmeclipse.github.io/)**  
 And install their plugin to get make file based template projects.  
+(Tool chain can be found **/usr/share/gcc-arm-none-eabi**)  
   
 ## References
 
