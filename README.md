@@ -159,6 +159,11 @@ If you want to develop OS-less system (bare metal), visit:
 **[GNU ARM ECLIPSE PROJECT](http://gnuarmeclipse.github.io/)**  
 And install their plugin to get make file based template projects.  
 (Tool chain can be found **/usr/share/gcc-arm-none-eabi**)  
+
+If your custom board, which refers existing board.h file, and it doesn't booting:  
+**Check CHIBIOS_ROOT/os/hal/boards/TARGETBOARD/board.h**  
+Then get rid of **STM32_HSE_BYPASS** to avtivate your xtal.
+
   
 ## References
 
