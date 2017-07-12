@@ -159,21 +159,22 @@ However, Debugging itself is not easy so that we may discuss in a following sess
 ## Etc.
   
 If Eclipse's syntax check is too annoying for you, go to:  
-**Project Property >> C/C++ General >> Code Analasys**  
-And disable the options.  
+- **Project Property >> C/C++ General >> Code Analasys**  
+- And disable the options.  
   
 If you want to develop OS-less system (bare metal), visit:  
-**[GNU ARM ECLIPSE PROJECT](http://gnuarmeclipse.github.io/)**  
-And install their plugin to get make file based template projects.  
-(Tool chain can be found **/usr/share/gcc-arm-none-eabi**)  
+- **[GNU ARM ECLIPSE PROJECT](http://gnuarmeclipse.github.io/)**  
+- And install their plugin to get make file based template projects.  
+- (Tool chain can be found **/usr/share/gcc-arm-none-eabi**)  
 
 If your custom board, which refers existing board.h file, and it doesn't booting:  
-**Check CHIBIOS_ROOT/os/hal/boards/TARGETBOARD/board.h**  
-Then get rid of **STM32_HSE_BYPASS** to avtivate your xtal.
+- **Check CHIBIOS_ROOT/os/hal/boards/TARGETBOARD/board.h**  
+- Then get rid of **STM32_HSE_BYPASS** to avtivate your xtal.
 
-If Eclipse shows redline under **#include "ch.h"**, 
-copy ChibiOS kernel directory to your demo project's directory.
-This should be done before the very first step (Also don't forget Makefile update).
+If Eclipse shows redline under **#include "ch.h"**,    
+- copy ChibiOS kernel directory to your demo project's directory.  
+- This should be done before the very first step.   
+- Also don't forget Makefile update.  
   
 ## References
 
