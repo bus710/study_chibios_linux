@@ -91,7 +91,14 @@ Now, we are ready to get the code from this repository.
 $ cd ~
 $ git clone https://github.com/bus710/study_chibios_linux
 ```
-  
+
+For Eclipse indexer, copy ChibiOS kernel to the project direcoty.
+
+```
+$ copy KERNEL PROJECT_DIRECTORY
+$ vi Makefile
+```
+
 From Eclipse, you can import a project as follow.
 - Go to **"File > New > Makefile Project with Existing Code"**.
 - You may see the **"New Project"** dialog.
@@ -164,7 +171,10 @@ If your custom board, which refers existing board.h file, and it doesn't booting
 **Check CHIBIOS_ROOT/os/hal/boards/TARGETBOARD/board.h**  
 Then get rid of **STM32_HSE_BYPASS** to avtivate your xtal.
 
-  
+If Eclipse shows redline under **#include "ch.h"**, 
+copy ChibiOS kernel directory to your demo project's directory.
+This should be done before the very first step (Also don't forget Makefile update).
+  
 ## References
 
 To know more about programming with ChibiOS, visiting its official web-site and forum is recommended.  
