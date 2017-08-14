@@ -175,6 +175,10 @@ If Eclipse shows redline under **#include "ch.h"**,
 - copy ChibiOS kernel directory to your demo project's directory.  
 - This should be done before the very first step.   
 - Also don't forget Makefile update.  
+
+If Eclipse's formatter annoys,
+- Go to Window >> Preference >> C/C++ >> Editor >> Save actions
+- Disable **Format source code**. 
   
 ## References
 
