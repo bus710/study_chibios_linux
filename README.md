@@ -2,6 +2,9 @@
    
 This is a sibling repository of ["study_chibios"](https://github.com/bus710/study_chibios).  
 However, this repo aims Linux users.
+
+**This has been here for a while and I made a new repo for STM32 MCU users.**
+https://github.com/bus710/stm32-development-in-linux
   
 ## Maintainer
   
